@@ -1,0 +1,5 @@
+@-moz-document url-prefix("https://translate.google.com/#auto/pl/") {
+@namespace url(http://www.w3.org/1999/xhtml);
+#gb, #gba, #gt-appbar, #gt-ft, #gt-ft-res, #gt-community-promo {display:none!important;}
+
+}

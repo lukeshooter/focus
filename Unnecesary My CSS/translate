@@ -1,0 +1,4 @@
+sh -c 'chromium-browser "--app=https://translate.google.com/#auto/pl/$(xclip -o)"'
+
+sh -c 'firefox --new-window https://translate.google.com/#auto/pl/$(xclip -o)'
+

@@ -1,0 +1,216 @@
+@-moz-document url-prefix("https://www.messenger.com") {
+._1enh {
+  -webkit-transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+-moz-transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+-o-transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  position: relative;
+  z-index: 1000;
+  width: 220px !important;
+  margin-left: -180px;
+  background: white;
+  border-right: 1px solid rgba(0, 0, 0, .10);
+  transform: translate(1px);
+}
+  
+._1enh:hover {
+  transform: translate(180px);
+  box-shadow:0 0 0 3000px rgba(0, 0, 0, .6);
+}        
+
+._4sp8 { min-width: 200px; }
+
+._1ht3 {
+  background-color: #CFE8FF !important;
+  }
+/* ..., ..., stickers */
+._36ic, ._5742, ._293j, ._5r8a._5r8b {
+	background-color: rgba(255, 255, 255, .05) !important;
+}
+._5r8e {
+	border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+._5743, ._364g, ._hh7, ._4rph ._4rpj {
+	color: white !important;
+}
+label {
+	color: #aaa;
+}
+/* convo search box, to field (new message, add people), other inputs? */
+._2y8y, ._4jgt, input._58al {
+	background-color: #636E73 !important;
+	color: white !important;
+}
+/* fuck placeholder styling */
+input::-moz-placeholder {
+	color: #ccc !important;
+}
+input::-webkit-input-placeholder {
+	color: #888 !important;
+}
+
+/* main wrapper */
+._4sp8 {
+	background-color: #636E73;
+	color: white;
+}
+
+/* chat area shit */
+/* message */
+._hh7 {
+	background-color: #199ab7 !important;
+	color: white !important;
+}
+._hh7 a {
+	color: white !important;
+}
+._hh7:active, ._-5k ._hh7, ._hh7>span>a:hover {
+	background-color: #333 !important;
+}
+/* own message */
+._nd_ ._hh7 {
+	background-color: #52bf5d !important;
+}
+._nd_ ._hh7:active, ._nd_._-5k ._hh7, ._nd_ ._hh7>span>a:hover {
+	background-color: #003377 !important;
+}
+/* link info */
+._haj {
+	border-color: rgba(255, 255, 255, .1) !important;
+}
+._haj .__6k, ._haj .__6l {
+	color: white !important;
+}
+/* audio message */
+._29_7 ._3czg ._2e-7 ._2e-1, ._29_7 ._3czg ._2e-7 ._2e-2 {
+	background-color: #444 !important;
+}
+._454y ._1mi- {
+	background-color: #636E73 !important;
+}
+/* typing bubble */
+._1hbw ._5pd7 {
+	background-color: rgba(255, 255, 255, .6) !important;
+}
+/* delete bubble button */
+._hw2 ._53ij {
+	background-color: #040404 !important;
+}
+/* input bar */
+._4rv3 {
+	border-top-color: rgba(255, 255, 255, .1) !important;
+}
+/* messenger thumb up stickers */
+[style*="sticker_id=369239263222822"], [style*="sticker_id=369239343222814"], [style*="sticker_id=369239383222810"] {
+	filter: brightness(80%);
+}
+
+/* convo info */
+._4_j5 {
+	background-color: #636E73 !important;
+	border-left-color: rgba(0, 0, 0, 0.5);
+}
+/* convo name */
+._3tkx, ._3tkz {
+	color: white !important;
+}
+/* user list */
+._5l37 {
+	background-color: #636E73 !important;
+}
+
+/* convo list */
+._1enh._4bl7 {
+	/* fix convo list hiders */
+	background-color: #636E73;
+}
+/* inactive convo */
+._1ht1 {
+	background-color: #636E73 !important;
+}
+/* unread convo */
+._1ht1._1ht3 {
+	background-color: #c80a0a !important;
+}
+/* active convo */
+._1ht1._1ht2 {
+	background-color: rgba(255, 255, 255, .05) !important;
+}
+/* convo name */
+._1ht6, ._3q34 {
+	color: white !important;
+}
+/* timestamp */
+._1ht7 {
+	color: rgba(255, 255, 255, .6) !important;  /* fuck you Chrome, fuck you. */
+}
+._1ht3 ._1ht7 {
+	color: #0084cc !important;
+}
+/* convo new message */
+._1ht3 ._1htf {
+	color: white !important;
+}
+/* search header */
+._5t4c, ._225b {
+	background-color: #1e1e1e !important;
+}
+
+/* that menu though */
+._53ij {
+	background-color: #636E73 !important;
+}
+._256n {
+	color: #ddd !important;
+}
+._256n:hover {
+	background-color: #636E73;
+}
+/* menu dropdown triangles */
+._1r_9 ._53ik ._53io, ._53ii ._53il ._53io {
+	filter: brightness(20%);
+}
+/* misc icons */
+._fl3._gxi, ._4-0h, ._57gs, ._55sg > input + span::before {
+	filter: brightness(75%);
+}
+/* messenger dialogs, very important */
+._4-hz, ._4eby, ._4jgp ._4jgu {
+	background-color: #636E73 !important;
+}
+._374c, ._4jgs, ._2c9i ._19jt, ._51l0 .uiInputLabel .__rm + .uiInputLabelLabel {
+	color: #ddd !important;
+}
+/* report dialog, even more so */
+/* dialog head */
+._4-i0 {
+	background-color: #333 !important;
+	border-bottom-color: #2e2e2e;
+}
+/* dialog heading */
+._4-i0 ._52c9 {
+	color: #ddd !important;
+}
+#u_0_0 > div > div > div._1enh._4bl7
+
+._4sp8 { min-width: 260px; }
+
+._1ht3 
+
+/* dialog body, footer */
+div._4-i2, div._5a8u {
+	background-color: #636E73 !important;
+}
+
+/* stuff that should be grey */
+._ih3, ._3tl0, ._3tl1 ._10w4, ._1htf, ._497p, ._3x6v, ._2v6o, ._3tky, ._5rh4, ._jf4 ._jf3, ._haj .__6m, ._2y8z,
+._4g0h, ._3xcx, ._225b, ._3q35 {
+	color: rgba(255, 255, 255, .6) !important;
+}
+._30yy{cursor:pointer;-webkit-transition:opacity .2s}._30yy:active{opacity:.2}@media all and (min-width: 605px){._4sp8{font-size: 18px;}}
+._1enh{float:left;max-width:420px;min-width:240px;width:25%}
+._1t_q ._4ld-,._1t_q ._4ld- img{max-height:42px;max-width:42px}@-webkit-keyframes messengerTypingAnimation{0%{-webkit-transform:translateY(0px)}28%{-webkit-transform:translateY(-6px)}44%{-webkit-transform:translateY(0px)}}
+}
