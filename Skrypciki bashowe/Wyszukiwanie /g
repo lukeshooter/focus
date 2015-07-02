@@ -1,0 +1,6 @@
+#!/bin/bash
+# Usage g search-terms
+#
+# short command designed to perform a google search from the command-line
+
+surfraw -browser=firefox google  $* 2>/dev/null &tw

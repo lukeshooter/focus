@@ -1,0 +1,2 @@
+#!/bin/bash 
+firefox "https://pl.wikipedia.org/wiki/$*"
